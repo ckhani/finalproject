@@ -910,3 +910,28 @@ footer p {
     }
 }
 
+/* Gallery Styles */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.gallery-item {
+    flex: 1 1 calc(50% - 20px);
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.gallery-item p {
+    text-align: center;
+    padding: 10px 0;
+}
+
