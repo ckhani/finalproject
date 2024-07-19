@@ -553,10 +553,10 @@ img {
 
 /* Profile Image Styles */
 .profile-image {
-    max-width: 200px;
+    max-width: 250px;
     height: auto;
     display: block;
-    margin: 0 auto;
+    margin: 0 auto 20px;
 }
 
 /* Footer Styles */
