@@ -553,7 +553,7 @@ img {
 
 /* Profile Image Styles */
 .profile-image {
-    max-width: 250px;
+    max-width: 300px;
     height: auto;
     display: block;
     margin: 0 auto 20px;
