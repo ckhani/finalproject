@@ -920,10 +920,11 @@ footer p {
 
 .travel-blog img,
 .hobbies img {
-    max-width: 300px;
+    max-width: 150px;
     height: auto;
-    margin: 1em;
+    margin: 1em auto;
     border-radius: 8px;
+    display: block;
 }
 
 .travel-blog .image-container,
@@ -936,14 +937,14 @@ footer p {
 
 .travel-blog .image-container img,
 .hobbies .image-container img {
-    flex: 1 1 calc(50% - 2em);
+    flex: 1 1 auto;
 }
 
 .travel-blog .image-container img {
-    max-width: calc(50% - 1em);
+    max-width: 150px;
 }
 
 .hobbies .image-container img {
-    max-width: calc(50% - 1em);
+    max-width: 150px;
 }
 
