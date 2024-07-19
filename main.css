@@ -190,7 +190,6 @@ pre code {
     border: solid 1px rgba(144, 144, 144, 0.25);
     margin-bottom: 2em;
     padding: 1.5em;
-    background-color: #f9f9f9;
 }
 
 .box > :last-child {
@@ -557,7 +556,7 @@ img {
     max-width: 400px;
     height: auto;
     display: block;
-    margin: 0 auto;
+    margin: 0 auto 2em;
 }
 
 /* Footer Styles */
@@ -747,6 +746,7 @@ aside {
 .profile img {
     max-width: 300px;
     border-radius: 50%;
+    margin-bottom: 2em;
 }
 
 .profile h1 {
@@ -876,7 +876,7 @@ footer p {
 /* Responsive Styles */
 @media screen and (max-width: 768px) {
     .profile img {
-        max-width: 100px;
+        max-width: 200px;
     }
 
     .section-title h2 {
@@ -892,7 +892,7 @@ footer p {
     }
 
     .profile img {
-        max-width: 75px;
+        max-width: 150px;
     }
 
     .section-title h2 {
@@ -911,4 +911,39 @@ footer p {
     }
 }
 
+/* Travel Blog and Hobbies Styles */
+.travel-blog,
+.hobbies {
+    padding: 2em 0;
+    text-align: center;
+}
+
+.travel-blog img,
+.hobbies img {
+    max-width: 300px;
+    height: auto;
+    margin: 1em;
+    border-radius: 8px;
+}
+
+.travel-blog .image-container,
+.hobbies .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+}
+
+.travel-blog .image-container img,
+.hobbies .image-container img {
+    flex: 1 1 calc(50% - 2em);
+}
+
+.travel-blog .image-container img {
+    max-width: calc(50% - 1em);
+}
+
+.hobbies .image-container img {
+    max-width: calc(50% - 1em);
+}
 
