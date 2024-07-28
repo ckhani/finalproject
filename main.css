@@ -919,7 +919,7 @@ footer p {
 
 .travel-blog img,
 .hobbies img {
-    width: 100%;
+    width: 50%;
     max-width: 200px; /* Adjust this value to resize images */
     height: auto;
     margin: 1em auto;
