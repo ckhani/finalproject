@@ -1,7 +1,7 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:300,300italic,400,600");
 
-/* Basic */
+/* Basic Reset */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -50,7 +50,7 @@ table {
     border-spacing: 0;
 }
 
-/* Basic */
+/* Basic Styles */
 html {
     box-sizing: border-box;
 }
@@ -921,7 +921,7 @@ footer p {
 .travel-blog img,
 .hobbies img {
     width: 100%;
-    max-width: 300px; /* Adjust this value to resize images */
+    max-width: 200px; /* Adjust this value to resize images */
     height: auto;
     margin: 1em auto;
     border-radius: 8px;
@@ -939,6 +939,6 @@ footer p {
 .travel-blog .image-container img,
 .hobbies .image-container img {
     flex: 1 1 auto;
-    max-width: 300px; /* Ensure consistency with above max-width */
+    max-width: 200px; /* Ensure consistency with above max-width */
 }
 
