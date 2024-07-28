@@ -920,7 +920,7 @@ footer p {
 .travel-blog img,
 .hobbies img {
     width: 50%;
-    max-width: 200px; /* Adjust this value to resize images */
+    max-width: 150px; /* Adjust this value to resize images */
     height: auto;
     margin: 1em auto;
     border-radius: 8px;
@@ -938,7 +938,7 @@ footer p {
 .travel-blog .image-container img,
 .hobbies .image-container img {
     flex: 1 1 auto;
-    max-width: 200px; /* Ensure consistency with above max-width */
+    max-width: 150px; /* Ensure consistency with above max-width */
 }
 
 
